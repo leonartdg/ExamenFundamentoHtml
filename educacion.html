@@ -4,7 +4,7 @@
 		 <meta charset="UTF-8">
 		 <meta name="viewport" content="width=device-width, user-scalable=no">
 		 <meta name="author" content="Carlos Benavides:Leonart">
-		 <meta name="keywords" content="html, datos personales, hoja de vida">
+		 <meta name="keywords" content="html, educacion, hoja de vida">
 		 <meta name="description" content="Primer Proyecto: Hoja de Vida.">
 		<title>Primer Proyecto</title>
 	</head>
@@ -53,8 +53,28 @@
 				Agregar Estudios
 			</h2>
 			<form>
-				<label for="nombre">Año</label>
-				<input type="button" value="boton">
+				<p>
+					<label for="periodo">Año</label>
+					<select name="periodo">
+	  					<option value="2016">2016</option>
+	  					<option value="2017">2017</option>
+					</select>
+				</p>
+				<p>
+					<label for="periodo">Institución</label>
+					<input type="text" name="Institucion">
+				</p>
+				<p>
+					<label for="lugar">Lugar</label>
+					<textarea name="lugar" ></textarea>
+				</p>
+				<p>
+					<label for="culmino">¿Culminó?</label>
+					Si <input type="checkbox" name="culmino1" value="si">
+					No <input type="checkbox" name="culmino2" value="no">
+				</p>
+				<button type="button">Enviar</button>
+				
 			</form>
 		</article>
 		<footer id="contacto">
